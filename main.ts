@@ -289,7 +289,7 @@ oxygen = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Food)
-game.onUpdateInterval(10000, function () {
+game.onUpdateInterval(2000, function () {
     Goomb = sprites.create(img`
         ................................
         ................................
